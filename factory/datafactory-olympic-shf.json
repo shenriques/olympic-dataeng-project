@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-olympic-shf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "655fbc85-3633-42f5-ad34-cc62724ae60f",
+		"tenantId": "3fe1f0ad-8ae7-4e00-8fba-fca185fd446d"
+	}
+}
