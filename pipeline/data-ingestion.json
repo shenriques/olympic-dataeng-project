@@ -62,7 +62,14 @@
 			{
 				"name": "coaches",
 				"type": "Copy",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "athletes",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -111,7 +118,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "data_lake",
+						"referenceName": "coaches_sink",
 						"type": "DatasetReference"
 					}
 				]
